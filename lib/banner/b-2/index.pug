@@ -1,12 +1,10 @@
 section.canhcam-banner-2
-	article.list-items
-		.item(bg-img="./img/slider/slider-1.png")
-			.title
-				h1.h1 Main title
-				p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque tempora vel quas atque labore aliquid rem dicta inventore iste
-		.item(bg-img="./img/slider/slider-2.png")
-			.title
-				h1.h1 Main title
-				p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque tempora vel quas atque labore aliquid rem dicta inventore iste
-				p
-					a.btn.btn-primary.btn-lg(href="#") Read more
+		article.list-items
+			-for (x = 1; x < 7; x++)
+				.item(bg-img="./img/tksala/home_banner_0"+x+".jpg")
+					.title
+						h1.h1 Main title
+						p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque tempora vel quas atque labore aliquid rem dicta inventore iste
+						p
+							a.btn.btn-primary.btn-lg.btn-mario.btn-mario__1(href="#") Read more
+							a.btn.btn-primary.btn-lg.btn-mario.btn-mario__2(href="#") Buy Now

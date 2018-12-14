@@ -25,6 +25,14 @@
 					text-align: center
 					width: 100%
 					+pad(0 1rem)
+
+					// Start CSS button
+					.btn-mario
+						border-radius: 0
+					.btn-mario.btn-mario__2
+						background: none !important
+						border: 2px solid color-get($mau, trang)
+						margin-left: 1rem
 					h1
 						color: color-get($mau,trang)
 						+text-sha(1px 1px 3px rgba(0,0,0,.4))
@@ -43,6 +51,7 @@
 						h1
 							+fz(4rem)
 							letter-spacing: 1px
+							text-transform: uppercase
 						p
 							+fz(2rem)
 							+lh(2.3rem)
