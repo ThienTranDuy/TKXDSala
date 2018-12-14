@@ -69,7 +69,7 @@
 						left: 10%
 						top: 10%
 						z-index: 999
-						opacity: 0
+						opacity: 1
 						transition: .5s ease-in-out
 					&:after
 						content: ''
@@ -87,7 +87,11 @@
 				figure
 					.boxzoom
 						&:before
-							opacity: 1
+							width: 90%
+							height: 90%
+							top: 5%
+							left: 5%
+							border: 2px solid color-get($mau, main)
 						&:after
 							z-index: 1
 						img
